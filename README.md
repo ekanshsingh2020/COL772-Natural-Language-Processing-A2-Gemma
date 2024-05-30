@@ -4,6 +4,7 @@
 - We are supposed to filter out the correct cells from the table which correspond to the answer of the given question but this time we need to use Google's new Gemma model (gemma-7b-it-quant) to solve the problem instead of any neural methods by using prompt engineering
 
 ### Idea Overview
+- You can find the final submission in the prompt_gen.py file
 - The idea was to somehow give the prompt where the model firstly knows the output structure so that we can then parse our required output from that
 - Secondly we need to prompt it in a way that it outputs in a way which it feels easier and print small chunks of the information along the way
 - I wanted to set the temperature as something non-zero but with that I was facing issues as at times it just followed a random thread and have random outputs and hence fixed the temperature as 0
